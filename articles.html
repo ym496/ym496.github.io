@@ -1,0 +1,23 @@
+---
+layout: default
+title: Articles
+---
+	<div class="container">
+
+    <div class="content">
+    <ul>
+	    {% for post in site.posts %}
+	    <li style="list-style-type: none;">
+		    <span style="margin-right: 10px;color: #050"><em>{{ post.date | date_to_string }}</em></span>
+		     <a href="{{ post.url }}" style="color: white; text-decoration: none;"
+     onmouseover="this.style.textDecoration='underline';"
+     onmouseout="this.style.textDecoration='none';">{{ post.title }}</a>
+	    </li>
+	    {% endfor %}
+    </ul>
+    </div>
+	</div>
+
+
+
+

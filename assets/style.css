@@ -1,0 +1,84 @@
+   .container {
+      font-family: Verdana, Sans-serif;
+      font-size: 18px;
+      line-height: 1.5;
+      max-width: 45vw;
+      margin: 0px auto;
+      color: white;
+      min-height: 66vh;
+    }
+    
+    .header {
+      font-size: 18px;
+      max-width: 45vw;
+      margin: 0px auto;
+      color: white;
+    }
+    .footer {
+      font-size: 18px;
+      max-width: 45vw;
+      margin: 0px auto;
+      margin-top: 30px;
+      text-align: center;
+      color: white;
+    }
+
+    .tabs li {
+      display: inline-block;
+      font-size: 18px;
+    }
+
+    
+    ul.tabs li a:hover {
+       color: #5B5EA6 !important;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+    }
+
+    ul.tabs li a {
+      color: #45FFCA;
+      text-decoration: underline;
+      text-decoration-color: #45FFCA;
+    }
+
+    ul.tabs li a:visited {
+      color: #45FFCA;
+    }
+
+    .nav_links {
+	    padding: 0;
+
+    }
+
+    body {
+	   background-color: #191A19;
+	   padding: 10px;
+	}
+    
+    .cblock {
+      margin-top: 10px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eee;
+      font-family: sans-serif;
+      font-size: 17px;
+    }
+
+    .ccode {
+      color: #050;
+      display: inline-block;
+    }
+
+    .cname {
+      display: inline-block;
+    }
+
+    .cinfo {
+      line-height: 1.4;
+      margin-top: 5px;
+    }
+
