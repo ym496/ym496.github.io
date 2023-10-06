@@ -82,7 +82,24 @@
       margin-top: 5px;
     }
 
-    .cname a {
-
+.cname a {
 	color : #BEADFA;
-    }
+	text-decoration: underline;
+}
+.cname a:visited {
+    color: #BEADFA;
+}    
+a:visited {
+    color: #795cb2;
+}
+
+a {
+    text-decoration: none;
+    color: #3366cc;
+    background: none;
+    transition: border-bottom 0.3s; 
+}
+a:hover {
+    text-decoration: underline;
+}
+
