@@ -16,15 +16,6 @@
       color: antiquewhite;
     }
 
-    .footer {
-      font-size: 16px;
-      max-width: 40vw;
-      margin: 0px auto;
-      margin-top: 30px;
-      text-align: center;
-      color: #F0EEE4;
-    }
-
     .tabs li {
       display: inline-block;
       font-size: 18px;
